@@ -110,9 +110,15 @@ for _, row in customer_tasks.sort_values(
             st.write(
                 f"**{item['product_name']}** — "
                 f"klient {timing_text}. "
+                f"Kupował ten produkt "
+                f"**{int(item['purchase_count'])} razy**, "
+                f"średnio co "
+                f"**{item['avg_interval_days']:.0f} dni**. "
+                f"Od ostatniego zakupu minęło "
+                f"**{int(item['days_since_last_purchase'])} dni**. "
                 f"Przewidywana wartość: "
-                f"**{item['expected_revenue']:,.0f} PLN**, "
-                f"confidence: "
+                f"**{item['expected_revenue']:,.0f} PLN**. "
+                f"Confidence: "
                 f"**{item['confidence_score_v2']:.0f}%**."
             )
 
