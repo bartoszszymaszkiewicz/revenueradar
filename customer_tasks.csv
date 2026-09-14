@@ -1,0 +1,264 @@
+customer_id,customer_name,products_count,total_expected_revenue,avg_confidence,max_confidence,task_message
+135,Klient_135,1,7532.64,77.8,77.8,"KLIENT: Klient_135
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 7533 PLN
+Średnia pewność: 77.8%
+
+PROPONOWANE POZYCJE:
+- Produkt_126: ok. 16 szt. (wartość ok. 7533 PLN, confidence 78%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+18,Klient_018,1,6621.81,76.5,76.5,"KLIENT: Klient_018
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 6622 PLN
+Średnia pewność: 76.5%
+
+PROPONOWANE POZYCJE:
+- Produkt_129: ok. 13 szt. (wartość ok. 6622 PLN, confidence 76%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+163,Klient_163,2,6510.39,78.2,79.1,"KLIENT: Klient_163
+Liczba produktów do potencjalnego ponownego zamówienia: 2
+Łączna przewidywana wartość: 6510 PLN
+Średnia pewność: 78.2%
+
+PROPONOWANE POZYCJE:
+- Produkt_132: ok. 13 szt. (wartość ok. 3768 PLN, confidence 77%)
+- Produkt_119: ok. 10 szt. (wartość ok. 2743 PLN, confidence 79%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+113,Klient_113,1,5986.24,76.0,76.0,"KLIENT: Klient_113
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 5986 PLN
+Średnia pewność: 76.0%
+
+PROPONOWANE POZYCJE:
+- Produkt_007: ok. 16 szt. (wartość ok. 5986 PLN, confidence 76%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+40,Klient_040,2,5461.16,76.0,77.0,"KLIENT: Klient_040
+Liczba produktów do potencjalnego ponownego zamówienia: 2
+Łączna przewidywana wartość: 5461 PLN
+Średnia pewność: 76.0%
+
+PROPONOWANE POZYCJE:
+- Produkt_046: ok. 9 szt. (wartość ok. 4109 PLN, confidence 77%)
+- Produkt_101: ok. 10 szt. (wartość ok. 1352 PLN, confidence 75%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+97,Klient_097,1,4380.25,78.1,78.1,"KLIENT: Klient_097
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 4380 PLN
+Średnia pewność: 78.1%
+
+PROPONOWANE POZYCJE:
+- Produkt_043: ok. 12 szt. (wartość ok. 4380 PLN, confidence 78%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+260,Klient_260,1,4061.68,76.8,76.8,"KLIENT: Klient_260
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 4062 PLN
+Średnia pewność: 76.8%
+
+PROPONOWANE POZYCJE:
+- Produkt_032: ok. 12 szt. (wartość ok. 4062 PLN, confidence 77%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+237,Klient_237,1,4015.84,76.7,76.7,"KLIENT: Klient_237
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 4016 PLN
+Średnia pewność: 76.7%
+
+PROPONOWANE POZYCJE:
+- Produkt_011: ok. 10 szt. (wartość ok. 4016 PLN, confidence 77%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+245,Klient_245,1,3635.12,75.2,75.2,"KLIENT: Klient_245
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 3635 PLN
+Średnia pewność: 75.2%
+
+PROPONOWANE POZYCJE:
+- Produkt_029: ok. 8 szt. (wartość ok. 3635 PLN, confidence 75%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+89,Klient_089,1,3604.12,80.5,80.5,"KLIENT: Klient_089
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 3604 PLN
+Średnia pewność: 80.5%
+
+PROPONOWANE POZYCJE:
+- Produkt_018: ok. 10 szt. (wartość ok. 3604 PLN, confidence 80%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+208,Klient_208,1,3359.7,76.4,76.4,"KLIENT: Klient_208
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 3360 PLN
+Średnia pewność: 76.4%
+
+PROPONOWANE POZYCJE:
+- Produkt_086: ok. 8 szt. (wartość ok. 3360 PLN, confidence 76%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+239,Klient_239,1,3258.53,79.1,79.1,"KLIENT: Klient_239
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 3259 PLN
+Średnia pewność: 79.1%
+
+PROPONOWANE POZYCJE:
+- Produkt_005: ok. 11 szt. (wartość ok. 3259 PLN, confidence 79%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+15,Klient_015,1,2304.48,75.8,75.8,"KLIENT: Klient_015
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 2304 PLN
+Średnia pewność: 75.8%
+
+PROPONOWANE POZYCJE:
+- Produkt_084: ok. 8 szt. (wartość ok. 2304 PLN, confidence 76%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+3,Klient_003,1,1897.7,84.9,84.9,"KLIENT: Klient_003
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 1898 PLN
+Średnia pewność: 84.9%
+
+PROPONOWANE POZYCJE:
+- Produkt_124: ok. 14 szt. (wartość ok. 1898 PLN, confidence 85%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+174,Klient_174,1,1715.7,76.1,76.1,"KLIENT: Klient_174
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 1716 PLN
+Średnia pewność: 76.1%
+
+PROPONOWANE POZYCJE:
+- Produkt_070: ok. 7 szt. (wartość ok. 1716 PLN, confidence 76%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+141,Klient_141,1,1693.62,75.6,75.6,"KLIENT: Klient_141
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 1694 PLN
+Średnia pewność: 75.6%
+
+PROPONOWANE POZYCJE:
+- Produkt_021: ok. 8 szt. (wartość ok. 1694 PLN, confidence 76%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+201,Klient_201,1,1389.9,77.3,77.3,"KLIENT: Klient_201
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 1390 PLN
+Średnia pewność: 77.3%
+
+PROPONOWANE POZYCJE:
+- Produkt_119: ok. 5 szt. (wartość ok. 1390 PLN, confidence 77%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+179,Klient_179,1,1382.99,82.8,82.8,"KLIENT: Klient_179
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 1383 PLN
+Średnia pewność: 82.8%
+
+PROPONOWANE POZYCJE:
+- Produkt_096: ok. 12 szt. (wartość ok. 1383 PLN, confidence 83%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+216,Klient_216,1,1275.89,76.2,76.2,"KLIENT: Klient_216
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 1276 PLN
+Średnia pewność: 76.2%
+
+PROPONOWANE POZYCJE:
+- Produkt_033: ok. 11 szt. (wartość ok. 1276 PLN, confidence 76%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+137,Klient_137,1,1265.81,75.0,75.0,"KLIENT: Klient_137
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 1266 PLN
+Średnia pewność: 75.0%
+
+PROPONOWANE POZYCJE:
+- Produkt_072: ok. 13 szt. (wartość ok. 1266 PLN, confidence 75%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+121,Klient_121,1,1200.6,75.3,75.3,"KLIENT: Klient_121
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 1201 PLN
+Średnia pewność: 75.3%
+
+PROPONOWANE POZYCJE:
+- Produkt_003: ok. 9 szt. (wartość ok. 1201 PLN, confidence 75%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+207,Klient_207,1,1085.85,78.5,78.5,"KLIENT: Klient_207
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 1086 PLN
+Średnia pewność: 78.5%
+
+PROPONOWANE POZYCJE:
+- Produkt_017: ok. 9 szt. (wartość ok. 1086 PLN, confidence 78%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+122,Klient_122,1,815.36,75.2,75.2,"KLIENT: Klient_122
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 815 PLN
+Średnia pewność: 75.2%
+
+PROPONOWANE POZYCJE:
+- Produkt_033: ok. 7 szt. (wartość ok. 815 PLN, confidence 75%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+293,Klient_293,1,786.69,75.3,75.3,"KLIENT: Klient_293
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 787 PLN
+Średnia pewność: 75.3%
+
+PROPONOWANE POZYCJE:
+- Produkt_094: ok. 9 szt. (wartość ok. 787 PLN, confidence 75%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+247,Klient_247,1,658.07,76.6,76.6,"KLIENT: Klient_247
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 658 PLN
+Średnia pewność: 76.6%
+
+PROPONOWANE POZYCJE:
+- Produkt_065: ok. 8 szt. (wartość ok. 658 PLN, confidence 77%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+265,Klient_265,1,578.62,84.5,84.5,"KLIENT: Klient_265
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 579 PLN
+Średnia pewność: 84.5%
+
+PROPONOWANE POZYCJE:
+- Produkt_122: ok. 16 szt. (wartość ok. 579 PLN, confidence 84%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+172,Klient_172,1,550.16,76.2,76.2,"KLIENT: Klient_172
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 550 PLN
+Średnia pewność: 76.2%
+
+PROPONOWANE POZYCJE:
+- Produkt_028: ok. 8 szt. (wartość ok. 550 PLN, confidence 76%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+160,Klient_160,1,537.07,81.2,81.2,"KLIENT: Klient_160
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 537 PLN
+Średnia pewność: 81.2%
+
+PROPONOWANE POZYCJE:
+- Produkt_083: ok. 10 szt. (wartość ok. 537 PLN, confidence 81%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
+248,Klient_248,1,513.27,77.7,77.7,"KLIENT: Klient_248
+Liczba produktów do potencjalnego ponownego zamówienia: 1
+Łączna przewidywana wartość: 513 PLN
+Średnia pewność: 77.7%
+
+PROPONOWANE POZYCJE:
+- Produkt_077: ok. 9 szt. (wartość ok. 513 PLN, confidence 78%)
+
+REKOMENDACJA: Skontaktuj się z klientem i przygotuj propozycję ponownego zamówienia."
