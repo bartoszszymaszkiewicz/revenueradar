@@ -46,63 +46,63 @@ for _, row in customer_tasks.sort_values(
 ).iterrows():
 
     with st.expander(
-        f"{row['customer_name']} — "
-        f"{row['total_expected_revenue']:,.0f} PLN"
-    ):
+    f"{row['customer_name']} — "
+    f"{row['total_expected_revenue']:,.0f} PLN"
+):
+
+    st.write(
+        f"**Liczba produktów:** {int(row['products_count'])}"
+    )
+
+    st.write(
+        f"**Średni confidence:** "
+        f"{row['avg_confidence']:.1f}%"
+    )
+
+    client_opportunities = opportunities[
+        (opportunities["customer_id"] == row["customer_id"])
+        &
+        (opportunities["confidence_score_v2"] >= 75)
+    ].sort_values(
+        "expected_revenue",
+        ascending=False
+    )
+
+    st.markdown("### Dlaczego system to sugeruje?")
+
+    for _, item in client_opportunities.iterrows():
+
+        status = item["opportunity_status_v2"]
+
+        if status == "due_soon":
+            timing_text = "zbliża się do typowego terminu zakupu"
+        elif status == "overdue":
+            timing_text = "przekroczył typowy termin zakupu"
+        else:
+            timing_text = "wykazuje sygnał ponownego zakupu"
 
         st.write(
-            f"**Liczba produktów:** {int(row['products_count'])}"
+            f"**{item['product_name']}** — klient {timing_text}. "
+            f"Przewidywana wartość: "
+            f"**{item['expected_revenue']:,.0f} PLN**, "
+            f"confidence: **{item['confidence_score_v2']:.0f}%**."
         )
 
-        st.write(
-            f"**Średni confidence:** "
-            f"{row['avg_confidence']:.1f}%"
-        )
+    st.markdown("### Zadanie handlowe")
 
-       client_opportunities = opportunities[
-            (opportunities["customer_id"] == row["customer_id"])
-            &
-            (opportunities["confidence_score_v2"] >= 75)
-        ].sort_values(
-            "expected_revenue",
-            ascending=False
-        )
+    status_option = st.selectbox(
+        "Status",
+        [
+            "Nowe",
+            "W trakcie",
+            "Oferta wysłana",
+            "Wygrane",
+            "Odrzucone"
+        ],
+        key=f"status_{row['customer_id']}"
+    )
 
-        st.markdown("### Dlaczego system to sugeruje?")
-
-        for _, item in client_opportunities.iterrows():
-
-            status = item["opportunity_status_v2"]
-
-            if status == "due_soon":
-                timing_text = "zbliża się do typowego terminu zakupu"
-            elif status == "overdue":
-                timing_text = "przekroczył typowy termin zakupu"
-            else:
-                timing_text = "wykazuje sygnał ponownego zakupu"
-
-            st.write(
-                f"**{item['product_name']}** — klient {timing_text}. "
-                f"Przewidywana wartość: "
-                f"**{item['expected_revenue']:,.0f} PLN**, "
-                f"confidence: **{item['confidence_score_v2']:.0f}%**."
-            )
-
-        st.markdown("### Zadanie handlowe")
-
-        status_option = st.selectbox(
-            "Status",
-            [
-                "Nowe",
-                "W trakcie",
-                "Oferta wysłana",
-                "Wygrane",
-                "Odrzucone"
-            ],
-            key=f"status_{row['customer_id']}"
-        )
-
-        st.info(
-            "Rekomendacja: skontaktuj się z klientem "
-            "i przygotuj propozycję ponownego zamówienia."
-        )
+    st.info(
+        "Rekomendacja: skontaktuj się z klientem "
+        "i przygotuj propozycję ponownego zamówienia."
+    )
