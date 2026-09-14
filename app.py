@@ -59,8 +59,10 @@ for _, row in customer_tasks.sort_values(
             f"{row['avg_confidence']:.1f}%"
         )
 
-        client_opportunities = opportunities[
-            opportunities["customer_id"] == row["customer_id"]
+       client_opportunities = opportunities[
+            (opportunities["customer_id"] == row["customer_id"])
+            &
+            (opportunities["confidence_score_v2"] >= 75)
         ].sort_values(
             "expected_revenue",
             ascending=False
